@@ -1,4 +1,7 @@
 import streamlit as st
 
-st.title("Heloow Fazaaa")
-st.title("_Fazaa_ is :red[My LOve] :sunglasses:")
+number = int(st.number_input("Insert a number",min_value=0, max_value=10))
+if number%2==1
+  st.write("Bilangan, number, "termasuk bilangan ganjil")
+else:
+  st.write("Bilangan, number, "termasuk bilangan genap")
